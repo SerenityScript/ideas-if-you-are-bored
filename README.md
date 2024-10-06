@@ -4,9 +4,9 @@ A React application that uses an API to find ideas to do if you are bored.
 
 ## Demo
 
-Try out the application here: [https://find-a-recipe-serenityscript.netlify.app/](https://find-a-recipe-serenityscript.netlify.app/)
+Try out the application here: [https://bored-serenityscript.netlify.app/](https://bored-serenityscript.netlify.app/)
 
-[![Find a recipe](src/demo.png)](https://find-a-recipe-serenityscript.netlify.app/)
+[![Find a recipe](src/demo.png)](https://bored-serenityscript.netlify.app/)
 
 
 ## Table of Contents

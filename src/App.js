@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import video from './sea.mp4';
 
 function App() {
+  const [idea, setIdea] = useState("")
+
+useEffect(() => {
+  getIdea();
+}, [])
+  
+const getIdea = async() => {
+  const response = await fetch(`https://bored.api.lewagon.com/api/activity`);
+  const data = await response.json();
+  console.log(data.activity
+  )
+  setIdea(data.activity)
+}
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <video autoPlay muted loop >
+        <source src={video} type='video/mp4' />
+      </video>
+      <div className='Container'>
+        <h1>Are you bored?</h1>
+        <h2>Here are some ideas for you:</h2>
+        <h2>"{idea}"</h2>
+        <button onClick={getIdea}>Next please</button>
+      </div>
     </div>
   );
 }

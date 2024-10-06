@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Recipe Finder App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that uses an API to find ideas to do if you are bored.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Try out the application here: [https://find-a-recipe-serenityscript.netlify.app/](https://find-a-recipe-serenityscript.netlify.app/)
 
-### `npm start`
+[![Find a recipe](src/demo.png)](https://find-a-recipe-serenityscript.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+* [Introduction](#introduction)
+* [Features](#features)
+* [Installation](#installation)
+* [Usage](#usage)
+* [API Documentation](#api-documentation)
+* [Contributing](#contributing)
+* [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Introduction
 
-### `npm run build`
+This application allows users to search for new ideas to do if it's boring. The app uses a third-party API to fetch idea data and display it to the user.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Click the button
+* Display new idea to do
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository: git clone https://github.com/SerenityScript/ideas-if-you-are-bored.git
+2. Install dependencies: npm install
+3. Start the application: npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open the application in a web browser: http://localhost:3000
+2. Enter an ingredient in the search bar
+3. Click the "Search" button to fetch recipe data
+4. Browse through recipe results and click on a Instructions to view details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## API Documentation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application uses the Bored API to fetch idea data. API documentation can be found at: https://bored.api.lewagon.com/ 
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! If you'd like to contribute to the project, please fork the repository and submit a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Credits
 
-### Analyzing the Bundle Size
+* Bored Search API: https://bored.api.lewagon.com/
+* React: https://reactjs.org/
+* Create React App: https://create-react-app.dev/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or need help with the application, please contact [siebrandt.dev@gmail.com](mailto:siebrandt.dev@gmail.com).
